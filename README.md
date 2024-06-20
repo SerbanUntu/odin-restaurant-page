@@ -1,1 +1,3 @@
-# odin-restaurant-page
+# Odin Restaurant Page
+## About
+## What I learned
