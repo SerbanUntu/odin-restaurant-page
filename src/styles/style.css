@@ -1,0 +1,74 @@
+:root {
+  --bg: hsl(0deg 0% 100% / 20%);
+  --white: hsl(0deg 0% 100%);
+
+  --blur: 10px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content 1fr;
+  background: url('../images/background.jpeg') no-repeat;
+  background-size: cover;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: var(--white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Tangerine", serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+header {
+  background: var(--bg);
+  backdrop-filter: blur(var(--blur));
+  padding: 1rem;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+button {
+  background: none;
+  border: none;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  padding: .5rem 0;
+  color: white;
+  &:hover, &.selected {
+    border-color: white;
+  }
+}
+
+#content {
+  margin: 2rem;
+  width: min(65ch, calc(100% - 4rem));
+  padding: 2rem;
+  background: var(--bg);
+  backdrop-filter: blur(var(--blur));
+}
