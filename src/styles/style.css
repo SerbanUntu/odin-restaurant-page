@@ -3,6 +3,7 @@
   --white: hsl(0deg 0% 100%);
 
   --blur: 10px;
+  --indent: 4ch;
 }
 
 body {
@@ -16,9 +17,11 @@ body {
   background: url('../images/background.jpeg') no-repeat;
   background-size: cover;
   font-family: "Inter", sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 16px;
   color: var(--white);
+  text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,18 +29,24 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
+  margin: 1em;
+}
+
+ul {
+  list-style: square;
+}
+
+li {
+  margin: .5em;
 }
 
 h1 {
   font-size: 3rem;
+  margin-top: 0;
 }
 
 h2 {
   font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.6rem;
 }
 
 header {
@@ -68,7 +77,27 @@ button {
 #content {
   margin: 2rem;
   width: min(65ch, calc(100% - 4rem));
-  padding: 2rem;
+  overflow: auto;
+  padding: calc(2rem + 20px);
   background: var(--bg);
   backdrop-filter: blur(var(--blur));
+}
+
+.employee-title, .week-day {
+  font-weight: 700;
+}
+
+.employee-name {
+  font-family: "Tangerine", serif;
+  font-size: 2rem;
+}
+
+/* UTILITY CLASSES */
+
+.indent {
+  text-indent: var(--indent);
+}
+
+.text-center {
+  text-align: center;
 }

@@ -1,39 +1,39 @@
 {
-  "name": "Lazar Bistro & Cafe",
+  "name": "Lazar Bistro & Café",
   "description": "Welcome to Lazar Bistro & Cafe, where East meets West in a delightful culinary experience. We combine the delicate flavors of Japanese sushi with the hearty satisfaction of American burgers, creating a unique menu that caters to adventurous palates.",
   "hours": [
     {
-      "day": "monday",
+      "day": "Monday",
       "start": "11:00 AM",
       "end": "10:00 PM"
     },
     {
-      "day": "tuesday",
+      "day": "Tuesday",
       "start": "11:00 AM",
       "end": "10:00 PM"
     },
     {
-      "day": "wednesday",
+      "day": "Wednesday",
       "start": "11:00 AM",
       "end": "10:00 PM"
     },
     {
-      "day": "thursday",
+      "day": "Thursday",
       "start": "11:00 AM",
       "end": "10:00 PM"
     },
     {
-      "day": "friday",
+      "day": "Friday",
       "start": "11:00 AM",
       "end": "01:00 AM"
     },
     {
-      "day": "saturday",
+      "day": "Saturday",
       "start": "11:00 AM",
       "end": "01:00 AM"
     },
     {
-      "day": "sunday",
+      "day": "Sunday",
       "start": "09:00 AM",
       "end": "09:00 PM"
     }
