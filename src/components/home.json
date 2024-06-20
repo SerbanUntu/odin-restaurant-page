@@ -1,3 +1,42 @@
 {
-  
+  "name": "Lazar Bistro & Cafe",
+  "description": "Welcome to Lazar Bistro & Cafe, where East meets West in a delightful culinary experience. We combine the delicate flavors of Japanese sushi with the hearty satisfaction of American burgers, creating a unique menu that caters to adventurous palates.",
+  "hours": [
+    {
+      "day": "monday",
+      "start": "11:00 AM",
+      "end": "10:00 PM"
+    },
+    {
+      "day": "tuesday",
+      "start": "11:00 AM",
+      "end": "10:00 PM"
+    },
+    {
+      "day": "wednesday",
+      "start": "11:00 AM",
+      "end": "10:00 PM"
+    },
+    {
+      "day": "thursday",
+      "start": "11:00 AM",
+      "end": "10:00 PM"
+    },
+    {
+      "day": "friday",
+      "start": "11:00 AM",
+      "end": "01:00 AM"
+    },
+    {
+      "day": "saturday",
+      "start": "11:00 AM",
+      "end": "01:00 AM"
+    },
+    {
+      "day": "sunday",
+      "start": "09:00 AM",
+      "end": "09:00 PM"
+    }
+  ],
+  "location": "123 Paradise Road, Portland, OR 97205, USA"
 }

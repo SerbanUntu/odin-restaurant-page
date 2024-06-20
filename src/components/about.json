@@ -1,3 +1,30 @@
 {
-  
+  "history": "Lazar Bistro & Cafe was founded in 2020 by two culinary enthusiasts, Chef Kenji Nakamura and Chef Emily Johnson, who shared a passion for blending diverse culinary traditions. Their vision was to create a restaurant where innovative fusion cuisine could thrive, bringing together the best of both worlds.",
+  "employees": [
+    {
+      "title": "Chef",
+      "name": "Kenji Nakamura",
+      "bio": "A master sushi chef with over 20 years of experience, Chef Kenji brings authentic Japanese techniques and a creative flair to our fusion dishes."
+    },
+    {
+      "title": "Chef",
+      "name": "Emily Johnson",
+      "bio": "A renowned burger chef, Emily has a knack for combining traditional American flavors with unexpected ingredients, making each dish a delightful surprise."
+    },
+    {
+      "title": "Manager",
+      "name": "Mark Thompson",
+      "bio": "With a decade of experience in the hospitality industry, Mark ensures that every guest enjoys exceptional service and a memorable dining experience."
+    }
+  ],
+  "contact": {
+    "phone": "(555) 123-4567",
+    "email": "contact@lazarbistro.com",
+    "website": "www.lazareatery.com",
+    "socialMedia": {
+      "instagram": "@lazareatery",
+      "twitter": "@lazarbistro",
+      "youtube": "@lazarbistro"
+    }
+  }
 }

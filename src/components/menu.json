@@ -1,3 +1,64 @@
 {
-  
+  "items": [
+    {
+      "name": "Sushi Burger Deluxe",
+      "price": "$15.99",
+      "category": "burger"
+    },
+    {
+      "name": "Teriyaki Chicken Burger",
+      "price": "$12.99",
+      "category": "burger"
+    },
+    {
+      "name": "Tempura Fish Tacos",
+      "price": "$13.99",
+      "category": "mexican"
+    },
+    {
+      "name": "California Roll Burger",
+      "price": "$14.99",
+      "category": "burger"
+    },
+    {
+      "name": "Spicy Tuna Nachos",
+      "price": "$10.99",
+      "category": "mexican"
+    },
+    {
+      "name": "Samurai Sliders",
+      "price": "$12.99",
+      "category": "burger"
+    },
+    {
+      "name": "BBQ Eel Sandwich",
+      "price": "$13.99",
+      "category": "sandwich"
+    },
+    {
+      "name": "Fusion Ramen Burger",
+      "price": "$14.99",
+      "category": "burger"
+    },
+    {
+      "name": "Panko-Crusted Chicken Burger",
+      "price": "$12.99",
+      "category": "burger"
+    },
+    {
+      "name": "Shrimp Tempura Burger",
+      "price": "$13.99",
+      "category": "burger"
+    },
+    {
+      "name": "Green Tea Cheesecake",
+      "price": "$6.99",
+      "category": "dessert"
+    },
+    {
+      "name": "Mochi Ice Cream Trio",
+      "price": "$5.99",
+      "category": "dessert"
+    }
+  ]
 }
