@@ -30,19 +30,17 @@ function setTab(tabName) {
     case 'about':
       contentReference = loadAboutTab();
       aboutButton.classList.add('selected');
-      currentTab = 'about';
       break;
     case 'home':
       contentReference = loadHomeTab();
       homeButton.classList.add('selected');
-      currentTab = 'home'
       break;
     case 'menu':
       contentReference = loadMenuTab();
       menuButton.classList.add('selected');
-      currentTab = 'menu';
       break;
   }
+  currentTab = tabName;
   document.body.appendChild(contentReference);
 }
 

@@ -1,6 +1,5 @@
 :root {
   --bg: hsl(0deg 0% 100% / 20%);
-  --gray: hsl(0deg 0% 35%);
   --white: hsl(0deg 0% 100%);
 
   --blur: 10px;
@@ -75,19 +74,6 @@ button {
   }
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: none;
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--bg);
-  border-radius: 9999px;
-}
-
 #content {
   margin: 2rem;
   width: min(65ch, calc(100% - 4rem));
@@ -96,6 +82,8 @@ button {
   background: var(--bg);
   backdrop-filter: blur(var(--blur));
   border-radius: 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--bg) transparent;
 }
 
 .menu-item {
