@@ -1,5 +1,6 @@
 :root {
   --bg: hsl(0deg 0% 100% / 20%);
+  --gray: hsl(0deg 0% 35%);
   --white: hsl(0deg 0% 100%);
 
   --blur: 10px;
@@ -68,19 +69,62 @@ button {
   border-bottom: 1px solid transparent;
   cursor: pointer;
   padding: .5rem 0;
-  color: white;
+  color: var(--white);
   &:hover, &.selected {
-    border-color: white;
+    border-color: var(--white);
   }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg);
+  border-radius: 9999px;
 }
 
 #content {
   margin: 2rem;
   width: min(65ch, calc(100% - 4rem));
-  overflow: auto;
-  padding: calc(2rem + 20px);
+  overflow-y: overlay;
+  padding: calc(2rem + 10px);
   background: var(--bg);
   backdrop-filter: blur(var(--blur));
+  border-radius: 1rem;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  margin-bottom: 4rem;
+}
+
+.menu-item img {
+  flex: 1;
+  min-width: 0;
+  max-width: 300px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 1rem;
+  border: 1px solid var(--white);
+  transition: all .5s;
+  cursor: pointer;
+  &:hover {
+    scale: 1.025;
+  }
+}
+
+.price {
+  font-family: "Tangerine", serif;
+  font-size: 1.5rem;
+  line-height: 0;
 }
 
 .employee-title, .week-day {
@@ -90,6 +134,10 @@ button {
 .employee-name {
   font-family: "Tangerine", serif;
   font-size: 2rem;
+}
+
+:last-child {
+  margin-bottom: 0;
 }
 
 /* UTILITY CLASSES */
